@@ -1,0 +1,280 @@
+<HTML>
+
+<!-- 	$Id: howto.html,v 1.21 2005/06/15 18:16:32 gerkey Exp $ -->
+<!-- 	$Source: /cvsroot/playerstage/www/player-www/player/segwayrmp/howto.html,v $  -->
+
+<HEAD>
+
+<body bgcolor="#FFFFFF" text="#000000" LINK="#AA0000"VLINK="#770000" ALINK="#CC0000">
+<meta name="keywords" content="">
+<TITLE>Player Segway RMP HowTo</TITLE>
+
+</HEAD>
+
+<!-- home ../../ -->
+
+<!-- head -->
+<table align=center cellpadding=10 width=100%>
+<tr>
+<td valign=top bgcolor="#656565">
+<table>
+<tr><td colspan=2><a href="../../images/logo_project.png">
+<img border=0 src="../../images/notext_ps_logo.jpg"></a>
+<tr><td colspan=2><a href="../../index.html"><font color="#FFFFFF">Home</font></a>
+<tr><td colspan=2><a href="../../faq.html"><font color="#FFFFFF">FAQ</font></a>
+<tr><td colspan=2><a href="../../player/player.html"><font color="#FFFFFF">Player</font></a>
+<tr><td colspan=2><a href="http://playerstage.sourceforge.net/doc/Player-cvs-html/player/utilities.html"><font color="#FFFFFF">Utilities</font></a><tr><td colspan=2><a href="../../stage/stage.html"><font color="#FFFFFF">Stage</font></a>
+<tr><td colspan=2><a href="../../gazebo/gazebo.html"><font color="#FFFFFF">Gazebo</font></a>
+<tr><td colspan=2><a href="../../contrib.html"><font color="#FFFFFF">Contrib</font></a>
+<tr><td colspan=2><a href="../../doc/doc.html"><font color="#FFFFFF">Documentation</font></a>
+<tr><td colspan=2><a href="../../pubs.html"><font color="#FFFFFF">Publications</font></a>
+<tr><td colspan=2><a href="../../credits.html"><font color="#FFFFFF">Contributors</font></a>
+<tr><td colspan=2><a href="../../users/users.html"><font color="#FFFFFF">Users</font></a>
+</table>
+<br>
+<table bgcolor="#858585"
+><tr><td><a href="http://sourceforge.net"><img border=0 src="http://sourceforge.net/sflogo.php?group_id=42445&type=1"></a>
+<tr><td><a href="http://sourceforge.net/projects/playerstage"><font color="#FFFFFF">Project</font></a>
+<tr><td><a href="http://sourceforge.net/project/showfiles.php?group_id=42445"><font color="#FFFFFF">Download</font></a>
+<tr><td><a href="http://sourceforge.net/tracker/?group_id=42445"><font color="#FFFFFF">Bugs/Feedback</font></a>
+<tr><td><a href="http://sourceforge.net/mail/?group_id=42445"><font color="#FFFFFF">Mailing lists</font></a>
+</table>
+<br><table>
+<tr><td><a href="http://radish.sourceforge.net/"><font color="#FFFFFF">Radish</font></a>
+</table>
+<br><table>
+<tr><td><a href="../../news.html"><font color="#AAAAAA">Old news</font></a>
+<tr><td><a href="../../old.html"><font color="#AAAAAA">Old stuff</font></a>
+</table>
+<br><table>
+<tr><td><img src="../../images/ps_logo_vertical.jpg"></table>
+</td>
+<td valign=top bgcolor="#FFFFFF" width=100%>
+<!-- /head -->
+
+<h1>How To control a Segway RMP with Player</h1>
+<h2>Credits</h2>
+<p>
+The original <b>segwayrmp</b> driver was written by
+<a href=http://www-robotics.cs.umass.edu/~sweeney/index.html>John
+Sweeney</a>, and overhauled by 
+<a href=http://robotics.usc.edu/~gerkey>Brian P. Gerkey</a>, with
+help from 
+<a href=http://robotics.usc.edu/~ahoward>Andrew Howard</a>.
+</p>
+<p>
+This document was written by 
+<a href=http://robotics.usc.edu/~gerkey>Brian P. Gerkey</a>
+</p>
+
+<h2>Examples</h2>
+For some videos of Player controlling a Segway RMP, look
+<a href="videos.html">here</a>.
+
+<h2>Overview</h2>
+<p>
+This document describes how to get your Segway RMP (Robotic Mobility
+                                                    Platform) under control with the <a href=player.html>Player</a> robot
+device server.  Be warned that the driver that allows this control 
+(<b>segwayrmp</b>) is brand new, is <i>experimental</i>, and will likely be 
+in a state of flux for some time to come.
+</p>
+
+
+<p>
+<ol>
+<li><a href=#getcan>Get CAN equipment</a>
+<li><a href=#canlii>Build and install LAPcan drivers and CANLIB</a>
+<li><a href=#connectcan>Connect CAN equipment</a>
+<li><a href=#getplayer>Download CVS snapshot of Player</a>
+<li><a href=#buildplayer>Build Player with Segway RMP support</a>
+<li><a href=#startsegway>Start Segway RMP</a>
+<li><a href=#startplayer>Start Player</a>
+<li><a href=#play>Play!</a>
+</ol>
+</p>
+
+<h2>The steps</h2>
+<ol>
+
+<li><h3><a href=#top name=getcan>Get CAN equipment</a></h3>
+<p>
+The control interface to the Segway RMP is CAN (Controller Area
+                                                Network), an industrial bus standard for which you need a special card.
+For redundancy and safety, the RMP uses 2 CAN channels, and you are
+required to talk to both of them simultaneously.  Thus, you need a
+2-channel CAN card.  The transceivers for these 2 channels must be
+opto-isolated.
+</p>
+<p>
+Currently, Player's <b>segwayrmp</b> driver only works with <a
+href=http://www.kvaser.com>Kvaser, Inc's</a> CANLIB,
+which is a Linux interface library to Kvaser's CAN cards.  CANLIB
+should work with any of Kvaser's CAN cards, but we've only tried it
+so far with the <a href=http://www.kvaser.com/products/index.htm>LAPcan II</a>, which is a 2-channel
+PCMCIA card.  If you do buy the LAPcan II, you'll also need 2 of the
+<i>DRVcan DNopto</i> transceiver dongles.  For DARPA MARS participants,
+the (discounted) cost for 
+the LAPcan II and 2 DNopto dongles together is about US$1000.
+</p>
+<p>
+The underlying CAN I/O subsystem in Player's <b>segwayrmp</b>
+driver is modular, to allow for the use of other CAN cards and/or
+interface libraries.  If you're interested in adding support
+for a non-Kvaser card, take a look in the Player source tree at
+<b>server/drivers/mixed/rmp/canio.h</b>, which defines the interface
+that you must implement.  Check 
+<b>server/drivers/mixed/rmp/canio_kvaser.h</b> and
+<b>server/drivers/mixed/rmp/canio_kvaser.cc</b> for an example of how to
+implement the interface.  Post questions and comments to the
+<a href="http://sourceforge.net/mail/?group_id=42445">developers' list</a>.
+</p>
+
+<li><h3><a href=#top name=canlii>Build and install LAPcan drivers and 
+CANLIB</a></h3>
+<p>
+<i>If you're using a non-Kvaser CAN card, then you'll have to do something
+different (but functionally equivalent) here.</i>
+</p>
+<p>
+<a
+href=http://cgi.algonet.se/htbin/cgiwrap/kvaser/sendfile.cgi?dir=files&file=linuxcan.txt>Download</a> the Linux support package from Kvaser.  Build
+and install canlib (as root):<br>
+<b># make canlib_install</b><br>
+Build and install the LAPcan kernel modules (as root):<br>
+<b># make lapcan_install</b><br>
+Beware that the install script for the LAPcan modules
+(<b>installscript_lapcan.sh</b>) is written in a Redhat-specific
+manner, and may require some tweaking to run properly on your
+system.  In particular, if you're running Gentoo, try this <a
+href=installscript_lapcan.sh>modified script</a> instead.
+</p>
+
+<li><h3><a href=#top name=connectcan>Connect CAN equipment</a></h3>
+<p>
+Insert your CAN card.  If you're not using <b>hotplug</b> (which
+                                                             autoloads modules for PCMCIA and USB devices), then you may have to first
+load the appropriate module manually.  For the LAPcan II, you need to load
+<b>lapcan_cs.o</b>.
+</p>
+<p>
+Connect the transceiver dongles to the card and
+to the 2 DB9 ports on the underside of the black control box on the Segway
+RMP.
+</p>
+<p>
+You'll need to somehow attach your computer to the Segway.  We've had some
+success with putting the laptop in a laptop bag in the footspace of the RMP
+and using the bag's shoulder strap to secure it to the robot.  You should
+put some thought into this step, because when (not if) the robot falls
+over, you don't want your laptop to be destroyed.
+</p>
+
+
+<li><h3><a href=#top name=getplayer>Download CVS snapshot of Player</a></h3>
+<p>
+There is not yet an official release of Player with the <b>segwayrmp</b>
+driver.  For now, get the latest CVS snapshot from our <a
+href=../snapshots/snapshots.html>snapshots page</a>.
+</p>
+
+<li><h3><a href=#top name=buildplayer>Build Player with Segway RMP 
+support</a></h3>
+<p>
+<i>Note that you need to build and run Player on the computer that is
+connected to the Segway's CAN bus (i.e., the laptop that you've physically
+                                   attached to the robot)</i>
+</p>
+<p>
+Support for the Segway RMP is disabled by default.  To enable it, run
+Player's <b>configure</b> script like so:<br>
+<b>$ ./configure --enable-segwayrmp --with-canlib=/usr</b><br>
+You might also pass other options (like <b>--prefix</b> or
+                                   <b>--with-rtk</b>); see the <a href=../faq.html>FAQ</a> for more info.
+To see all available options, do:<br>
+<b>$ ./configure --help</b><br>
+Now build and install Player:<br>
+<b>$ make </b><br>
+<b>$ make install</b><br>
+</p>
+
+<li><h3><a href=#top name=startsegway>Start Segway RMP</a></h3>
+<p>
+To start your Segway, hold any one of the keys (they're all the same for the 
+                                                RMP) in the ignition slot until it beeps.  We've found the keys somewhat
+unreliable, so try all of them, and hold each one in the slot for several
+seconds in order to find one that works.
+</p>
+<p>
+The RMP starts out in "tractor mode", wherein it does <i>not</i>
+autobalance.  You can control the RMP from software in tractor mode,
+but you need to attach some kind of trailer/caster assembly.  To put it
+in "balance mode", hold the RMP upright and push the red button on the
+handlebars once.  It should beep, turn the handlebar display green with
+a happy face and balance itself.
+</p>
+
+<li><h3><a href=#top name=startplayer>Start Player</a></h3>
+<p>
+Start Player with the supplied configuration file.  For example, if you
+installed Player in /usr/local (which is the default), then do the 
+following:<br>
+<b>$ /usr/local/bin/player
+/usr/local/share/player/config/segwayrmp.cfg</b><br>
+</p>
+<p>
+The <b>segwayrmp</b> driver supports both the standard 2-D <b>position</b>
+interface and the new 3-D <b>position3d</b> interface.   You should use the
+<b>position3d</b> interface if you want access to pitch and roll information
+from the RMP.
+</p>
+<p>
+There are examples of how to load the driver for each interface in
+<b>segwayrmp.cfg</b>.  You should only pick one interface; comment out the
+other one.  The <b>position3d</b> interface is brand new and not widely used
+or supported.  At the moment, it is only supported in the C++ client library;
+use <b>Position3DProxy</b>.  To see the 3-D info, try <b>playerjoy</b> with
+the <b>-3d</b> and <b>-v</b> flags.
+
+<li><h3><a href=#top name=play>Play!</a></h3>
+<p>
+Now it's time to play with your robot.  I highly recommend that you
+first try it under manual joystick control.  Included with Player is a
+Linux-specific utility called <b>playerjoy</b> (it's installed alongside
+                                                  <b>player</b> in <b>bin</b>), which is a Player client that reads
+from a joystick and sends appropriate speed commands to a Player server.
+It should work with pretty much any basic joystick, although I've only
+tested it with analog USB joysticks.
+</p>
+<p>
+Note that because of Player's network-centric design, you can run
+<b>playerjoy</b> off-board, for example on a joystick-equipped desktop
+machine and point it at Player running on the laptop that's attached
+your robot (presumably over a wireless network).  Then you can happily
+control the Segway while not being physically near it.  For example,
+if the laptop on your RMP is called <b>foo</b>, then run
+<b>playerjoy</b> like so:<br>
+<b>$ /usr/local/bin/playerjoy -c foo:6665</b><br>
+You'll need the <b>-c</b> to cause <b>playerjoy</b> to continuously send
+commands (instead of only sending them when the joystick moves).  For safety,
+the <b>segwayrmp</b> driver will stop the robot if no new commands have been
+received in the last 400ms or so.
+</p>
+<p>
+Your next task is to get the RMP going under autonomous control (after
+                                                                 all, this is robotics research).  Look <a href="segwayrmpvideos.html">here</a>
+for movies of some of our early successes in autonomous control for
+wall-following and obstacle traversal.
+</p>
+</ol>
+
+<!-- foot -->
+</td></tr></table>
+<br><hr>
+Last updated $Date: 2005/06/15 18:16:32 $
+<!-- /foot -->
+
+</BODY>
+
+</HTML>
+

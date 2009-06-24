@@ -1,0 +1,504 @@
+
+<h1>Old News</h1>
+
+The news headlines from the front page are archived here.
+
+<p>
+
+Since we reorganized the website, links here may be broken.
+
+<p>
+<dl>
+<li><b>2 October 2006:</b> We're now over 60,000 downloads from the Player
+Project, and averaging about 2,000 downloads / month (<a href="http://sourceforge.net/project/stats/?group_id=42445&amp;ugn=playerstage">more stats</a>).
+<li><b>30 September 2006:</b> New <a href="http://king.net.pl/playercontrib/guileplayer/guileplayer2">guileplayer2</a>, Guile client library compatible with Player 2.0.3, released.
+<li><b>26 September 2006:</b> Player 2.0.3 and Stage 2.0.3 released.  Get
+them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
+<li><b>3 September 2006:</b> <a href="http://lisp-player.sf.net">LISPCL</a> client library version 2.0.2-1 released.
+<li><b>1 September 2006:</b> <a href="http://marie.sf.net">MARIE</a> 0.5 (Explorer) released.
+<li><b>9 June 2006:</b> Player 2.0.2 and Stage 2.0.2 released.  Get
+them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
+<li><b>24 March 2006:</b> Player 2.0.1 and Stage 2.0.1 released.  Get
+them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>. Check out Stage's <a 
+href="images/stage-speech-bubbles.png">cute support for Player's speech 
+interface</a>
+ by <a href="http://www.sfu.ca/~pkarimia">Pooya Karimian</a>.
+<li><b>27 February 2006:</b> Player 2.0.0 and Stage 2.0.0 released.  Get
+them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>. 
+
+<li><b>12 September 2005:</b> Revamped website launched. Your 
+comments and bug reports are welcome to vaughan@sfu.ca. How do you like 
+the new look?
+<li><b>1 September 2005:</b> Revamped website in beta
+<li><b>11 August 2005:</b> 
+Stage-2.0.0a has been released. It works with the recently-and-quietly released 
+Player-1.6.5. Read the release notes and get the code from the 
+<a 
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">download 
+page</a>. 
+
+<dt>14 May 2005<dd><dl><dt>
+Player 1.6.4 has been released.
+Check out the 
+<a 
+href="http://sourceforge.net/project/shownotes.php?release_id=327365">release
+notes</a>, then <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=34563&release_id=327365">download</a>.
+</dl>
+
+<dt>4 May 2005<dd><dl><dt>
+There's a bug in Player 1.6.3 that causes a compile error on some
+platforms (e.g., Linux).  There is a <a
+href="http://sourceforge.net/tracker/index.php?func=detail&aid=1195436&group_id=42445&atid=433166">patch</a> that fixes this bug.
+</dl>
+
+<dt>3 May 2005<dd><dl><dt>
+Player 1.6.3 has been released.
+Check out the <a 
+href="http://sourceforge.net/project/shownotes.php?release_id=302248">release
+notes</a>, then <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=34563&release_id=302248">download</a>.
+</dl>
+
+<dt>31 Jan 2005<dd><dl><dt>
+The Player/Stage Getting Started document has been updated for Player
+and Stage v1.6.x. Get it from the <a href="doc/doc.html">documentation page</a>.
+</dl>
+
+<dt>30 Jan 2005<dd><dl><dt>
+Player 1.6.2 has been released.  This release adds a handful of useful
+features; no major changes.  Check out the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=301144">release
+notes</a>, then <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=34563&release_id=301144">download</a>.
+</dl>
+
+<dt>25 Jan 2005<dd><dl><dt>
+Player 1.6.1 has been released.  This minor release fixes a number of
+bugs and adds a couple of new features.  Check out the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=299598">release
+notes</a>, then <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=34563&release_id=299598">download</a>.
+</dl>
+
+<dt>12 Dec 2004<dd><dl><dt>
+Version 0.1.0 of the <a
+href="http://robotics.usc.edu/~ahoward/pmap/index.html">pmap</a>
+mapping package is available.  This version includes libraries for 
+laser-stablized odometry, particle-filter-based mapping, and global map 
+relaxation.
+</dl>
+
+<!--
+<dt>24 Nov 2004<dd><dl><dt>
+Version 0.0.0 of the <a
+href="http://robotics.usc.edu/~ahoward/lodo/index.html">laser-stabilized
+odometry</a> plugin (lodo) is available.  This is a plugin driver for
+Player 1.6 that performs incremental SLAM on laser and odometry data;
+it produces corrected pose estimates (very low drift) and synchronized
+laser scans (no lag-lead artifacts).
+</dl>
+-->
+
+<dt>16 Nov 2004<dd><dl><dt>
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=90519&release_id=283293">Gazebo 0.5.0</a> as been released.  This version is compatible with Player 1.6.
+
+Check out the spiffy new <a href="doc/Gazebo-manual-0.5-html">docs</a>.
+</dl>
+
+<dt>12 Nov 2004<dd><dl><dt>
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=34563&release_id=282236">Player 1.6</a> and
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=103246&release_id=282240">Stage 1.3.5</a> have been released.   They are mutually compatible and are both compatible with the previously released
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=36330&release_id=242410">librtk 2.3.0</a>.  Player 1.6 is also compatible with 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=90519&release_id=242744">Gazebo 0.4</a>, 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=90519&release_id=279769">Gazebo 0.4.1</a>,
+and the forthcoming Gazebo 0.5.
+
+Lots of new stuff in Player this time; check out the new
+<a href="doc/doc.html">docs</a> to see what.
+
+Nothing new in Stage; it's just been updated to work with Player 1.6.
+</dl>
+
+<dt>2 Nov 2004<dd><dl><dt> Gazebo 0.4.1 has been 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=90519&release_id=279769">
+released
+</a>
+; this is a bug-fix release of Gazebo 0.4, with the build scripts
+tweaked to support ODE 0.5 instead of ODE 0.039.  Make sure you read the 
+<a href="http://playerstage.sourceforge.net/doc/Gazebo-manual-0.4.0-html/install-0.4.1.html">
+installation instructions
+</a>.
+</dl>
+
+<dt>25 Oct 2004<dd><dl><dt> 
+A link to Spanish language documentation for P/S has been posted to the <a
+href="faq.html#more_info">FAQ</a>.  Thanks to Fatima Fabiola Buenrostro
+Rojas and Victor Manuel Mendoza Malagon!
+</dl>
+
+<dt>22 Jul 2004<dd><dl><dt> 
+Some links to information about getting high-speed scans
+from the SICK laser range-finder has been posted to the <a
+href="faq.html#laser_speed">FAQ</a>.
+</dl>
+<dt>15 Jul 2004<dd><dl><dt> 
+The <a href="http://marie.sf.net">MARIE project</a> has made their first 
+release, <a
+href="http://sourceforge.net/project/showfiles.php?group_id=85891&package_id=89123&release_id=249647">MARIE-0.1.0 (Tinker)</a>, which includes support for 
+Player (and CARMEN and RobotFlow).
+</dl>
+
+<dt>13 Jul 2004<dd><dl><dt> 
+Bernard Guillot has provided patches to make Player and Stage build under
+<a href="http://www.cygwin.com/">Cygwin</a>.  The patches are merged in
+CVS.  Read Bernard's 
+<a href="http://sourceforge.net/mailarchive/message.php?msg_id=8889211">
+instructions</a>.
+</dl>
+
+<dt>5 Jul 2004<dd><dl><dt> 
+Yiannis Gatsoulis has provided detailed 
+<a href="http://sourceforge.net/mailarchive/message.php?msg_id=8882765">instructions</a>
+for installing P/S/G on Fedora C2.
+</dl>
+
+<dt>12 Jun 2004<dd><dl><dt> 
+Stage 1.3.4 has been released; this version is compatible with 
+Player 1.5 and librtk 2.3.0.
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=103246">Download</a>.
+</dl>
+
+<dt>2 Jun 2004<dd><dl><dt> 
+Player 1.5 has been released; this version is compatible with librkt 2.3.0,
+Gazebo 0.4.0, and (mostly) Stage 1.3.3.
+Player 1.5 contains a number of bugfixes and many new drivers.
+<br>
+<font color=red>NOTE</font>:<b>The units have been normalized in the C++ 
+client library to MKS: positions, angles, and their time derivatives are
+now specified in meters and radians.  You will have to change your
+code.</b>
+<br>
+Thanks to those who contributed.
+Please read the <a 
+href="http://sourceforge.net/project/shownotes.php?release_id=242496">release 
+notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">download</a>.
+</dl>
+
+
+<dt>1 Jun 2004<dd><dl><dt> 
+Gazebo 0.4.0 has been released; this version is compatible with the
+soon-to-be-released Player 1.5, and contains a number of significant
+enhancements.  Thanks to everyone who submitted new models and
+patches.  Release notes are <a
+href="http://sourceforge.net/project/shownotes.php?release_id=242744">here</a>;
+files can be downloaded <a href="http://sourceforge.net/project/showfiles.php?group_id=42445">here</a>.
+</dl>
+
+
+<dt>17 May 2004<dd><dl><dt>
+<a href="http://cns.bu.edu/~cjmorlan/">Cameron Morland</a>
+has written a Player <a href="clients/clients.html">client
+library</a> in <a href="http://www.octave.org/">GNU
+Octave</a>, and has kindly made it available for <a
+href="http://cns.bu.edu/~cjmorlan/robotics/octplayer/">download</a>.
+Thanks, Cameron!
+</dl>
+
+<dt>9 Mar 2004<dd><dl><dt>Player-mod 0.1 has been released.
+This is a simple example/template of how to build a Player driver
+as a shared object that can be loaded at runtime, rather than linked
+directly into the server.
+Please read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=222611">
+release notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445&package_id=111863">
+download</a>.</dl>
+
+<dt>9 Jan 2004<dd><dl><dt>Gazebo 0.3.0 has been released.
+This release contains a number of new models and features, and is
+compatible with Player 1.4rc2. Please read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=208538">
+release notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">
+download</a>.</dl>
+
+
+
+<dt>7 Dec 2003<dd><dl><dt>Player 1.4rc2 and Stage 1.3.3 have been released.
+Despite the different version numbers, they are mutually compatible, and
+both are compatible with the latest release of librtk (2.2.0).
+Please read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=202340">
+Player release notes</a> 
+and the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=202341">
+Stage release notes</a> 
+before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">
+download</a>.</dl>
+
+<dt>29 Sep 2003<dd><dl><dt><a
+href="http://rubyplayer.rubyforge.org">RubyPlayer</a>, a
+new Player <a href="clients/clients.html">client library</a>
+written in <a href="http://www.ruby-lang.org">Ruby</a>, has been <a
+href="http://sourceforge.net/mailarchive/forum.php?thread_id=3183668&forum_id=8201">released</a>.
+Many thanks to the author, <a
+href="http://www-robotics.usc.edu/~tdahl/">Torby Dahl</a>, for this
+contribution to the community.</dl>
+
+<dt>17 Sep 2003<dd><dl><dt>Gazebo 0.2.0 has been released.
+This release contains a number of new models, performance enhancements
+and bug-fixes.  Please read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=184802">
+release notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">
+download</a>.</dl>
+
+<dt>16 Aug 2003<dd><dl><dt>Added a <a href="faq.html">FAQ</a> section
+on Player's <a href="faq.html#player_hardware">hardware and software
+support</a>.</dl>
+
+<dt>4 Aug 2003<dd><dl><dt>Gazebo 0.1.1 has been released (hooray).
+This is a performance enhancement release, and should be used in
+preference to the 0.1.0 release.  Please read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=176046">
+release notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">
+download</a>.</dl>
+
+<dt>31 July 2003<dd><dl><dt>Gazebo 0.1.0 has been released (hooray).
+Please read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=175152">
+release notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">
+download</a>.</dl>
+
+<dt>16 July 2003<dd><dl><dt>Player 1.4rc1 has been released.  Please
+read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=172054">
+release notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">
+download</a>.  All bugs go to the <a
+href="http://sourceforge.net/tracker/?group_id=42445&atid=433164">
+tracker</a>.</dl>
+
+<dt>13 July 2003<dd><dl><dt>
+We were 
+<a href=http://science.slashdot.org/article.pl?sid=03/07/13/1618240&mode=thread&tid=137>Slashdotted</a>!
+Unfortunately, they got the story wrong, suggesting that we were providing
+instructions for converting a Segway HT to an RMP.  Fortunately, they quickly
+posted Andrew's correction.  Unfortunately, as with most Slashdot stories, the
+discussion quickly devolved into a meaningless religious war among idiots
+about which operating system is best for what.
+<br><br>
+As a result of this publicity, I've moved and password-protected the 
+RMP information and videos.  I'll post the relevant info via the VPO.
+</dl>
+<dt>21 June 2003<dd><dl><dt>Player now (experimentally) supports the Segway
+RMP. <b>PLEASE</b> read the HowTo
+before downloading a CVS <a href="snapshots/snapshots.html">snapshot</a>.
+</dl>
+<dt>2 June 2003<dd><dl><dt>A build script bug may prevent Player-1.3.2 from building cleanly on your system. The
+new 'Acoustics' driver requires the 
+<a href="http://www.gnu.org/software/gsl/gsl.html"> GNU Scientific Library</a>. You must install GSL or disable the driver with
+'./configure --disable-acoustics'</dl> 
+
+
+<dt>24 May 2003<dd><dl><dt>Player and Stage 1.3.2 have been released.  Please
+read the <a
+href="http://sourceforge.net/project/shownotes.php?release_id=161446">
+release notes</a> before you <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">
+download</a>.  All bugs go to the <a
+href="http://sourceforge.net/tracker/?group_id=42445&atid=433164">
+tracker</a>.</dl>
+
+<dt>24 May 2003<dd><dl><dt>All manuals are now available in HTML on the
+<a href="doc/doc.html">documentation page</a>.</dl>
+
+<dt>12 May 2003<dd><dl><dt>The <a
+href="http://radish.sourceforge.net/">Robotics Data Set Repository
+(Radish)</a> is now online.  This is a great place to find Stage world
+bitmaps.</dl>
+<dt>19 Apr 2003<dd><dl><dt>Player 1.3.2rc1 released.  It's the first release
+candidate for 1.3.2.  Get it from the
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">download
+page</a>.  Make sure to read the
+<a href="http://sourceforge.net/project/shownotes.php?release_id=154003">
+release notes</a>.</dl>
+
+<dt>24 Mar 2003<dd><dl><dt>Papers on P/S have been accepted for <A
+HREF="http://www.isr.uc.pt/icar03/">ICAR'03</A>, and submitted to <A
+HREF="http://www.icra-iros.com/iros2003/">IROS'03</A>. Find them on the <a
+href="pubs.html">publications page</a>.</dl>
+
+<dt>24 Feb 2003<dd><dl><dt><a href="http://zerohour.net/~reed">Reed Hedges</a>
+has posted some 
+<a href="http://sourceforge.net/tracker/?group_id=42445&atid=433166">patches</a>
+for Player 1.3.1, Stage 1.3.1, and librtk 2.1.1 that fix a couple of things
+and add some functionality, including a new communication mechanism.  
+<a href="http://sourceforge.net/mailarchive/forum.php?thread_id=1703173&forum_id=8201">Read about the patches</a>, which will likely be included in the next 
+release.</dl>
+
+<dt>10 Feb 2003 (news we didn't notice on 12 Aug 2002)<dd><dl><dt> A
+user recently told us Player/Stage was <a
+href="http://ranier.hq.nasa.gov/telerobotics_page/coolrobots.html">NASA
+Cool Robot of the Week</A> for 12 August last year.</dl>
+<dt>27 Jan 2003<dd><dl><dt><a href="http://robotics.usc.edu/~maxim">Maxim
+Batalin's</a> Java client has been updated for Player 1.3.x.
+There's a link on the <a href="clients/clients.html">clients page</a>.</dl>
+
+<dt>12 Jan 2003<dd><dl><dt>A nasty byteswapping bug has been found in the 
+omniposition device in Stage 1.3.1, making it unresponsive to speed commands.
+Look <a href="http://sourceforge.net/mailarchive/forum.php?thread_id=1504118&forum_id=8201">here</a> for a patch.</dl>
+
+<dt>26 Dec 2002<dd><dl><dt><a href="http://robotics.usc.edu/~boyoon">Boyoon 
+Jung's</a> Python client, PyPlayer, has been
+updated for Player 1.3.x.  Read about it 
+<a href="http://sourceforge.net/mailarchive/message.php?msg_id=2685394">here</a>.
+There's a link on the <a href="clients/clients.html">clients page</a>.</dl>
+
+<dt>19 Dec 2002<dd><dl><dt>The Player/Stage project has been at SourceForge
+for 1 year today, having accrued 2000 downloads.  Read a 
+<a href=http://sourceforge.net/mailarchive/message.php?msg_id=2664695>
+brief retrospectus</a>.</dl>
+
+<dt>8 Dec 2002<dd><dl><dt><a href="http://eksl.cs.umass.edu/~bburns">Brendan 
+Burns</a> has written a Common LISP client library for Player 1.3.x.  There's
+a link on the <a href="clients/clients.html">clients page</a>.</dl>
+
+<dt>5 Dec 2002<dd><dl><dt>Stage 1.3.1 released. As per the new compatibilty policy, this release works with any Player-1.3 revision, including Player-1.3.1.
+<a href=http://sourceforge.net/project/shownotes.php?release_id=126059>
+Release notes here.</a> <a href=http://sourceforge.net/project/showfiles.php?group_id=42445>source tarball here</a>.</dl>
+
+<dt>4 Dec 2002<dd><dl><dt>Player 1.3.1 released. Stage 1.3.1 is coming soon, but
+Player 1.3.1 is compatible with Stage 1.3.  Please read the 
+<a href=http://sourceforge.net/project/shownotes.php?release_id=126059>
+release notes</a> before you 
+<a href=http://sourceforge.net/project/showfiles.php?group_id=42445>download</a>.</dl>
+
+<dt>26 Nov 2002<dd><dl><dt>There's a bug in the position device in Stage 1.3.
+It causes incorrect heading and speed values to be returned.  For a patch,
+look
+<a href="http://sourceforge.net/mailarchive/message.php?msg_id=2469132">
+here</a>.</dl>
+
+<dt>14 Nov 2002<dd><dl><dt>Bug found in Player 1.3 headers. It affects building
+C/C++ client libraries.  For more information and a workaround, look
+<a href="http://sourceforge.net/mailarchive/forum.php?thread_id=1310962&forum_id=7507">here</a>.</dl>
+
+<dt>11 Nov 2002<dd><dl><dt>Stage 1.3 released. Please read the <a href=http://sourceforge.net/project/shownotes.php?release_id=120176>release notes</a> before you 
+<a href=http://sourceforge.net/project/showfiles.php?group_id=42445>download</a>.</dl>
+
+<dt>9 Nov 2002<dd><dl><dt>Added a <a href="faq.html">FAQ</a>.</dl>
+
+<dt>2 Nov 2002<dd><dl><dt>Player 1.3 released.  Stage is coming soon.
+Please read the <a href=http://sourceforge.net/project/shownotes.php?release_id=120176>release notes</a> before you 
+<a href=http://sourceforge.net/project/showfiles.php?group_id=42445>download</a>.</dl>
+
+<dt>31 Oct 2002<dd><dl><dt>Player and Stage 1.2.4 released.  It's a rather minor release, mainly to provide ACTS 2.0 support in Player.
+Please read the <a href=http://sourceforge.net/project/shownotes.php?release_id=119816>release notes</a> before you 
+<a href=http://sourceforge.net/project/showfiles.php?group_id=42445>download</a>.  Happy Halloween.</dl>
+
+<dt>13 Sep 2002<dd><dl><dt>Player and Stage now run on Sparc/Solaris.
+There is not yet a stable release for this platform, but you can get a 
+<a href=http://sourceforge.net/mailarchive/forum.php?thread_id=1064771&forum_id=7507>
+CVS snapshot</a>.</dl>
+
+<dt>11 Sep 2002<dd><dl><dt>Some sample movies taken from playerv
+showing two of the new drivers available in the upcoming release: the
+<a href="http://robotics.usc.edu/~ahoward/movies/playerv-fiducial-0.avi">
+laser/visual fiducial detector</a>, and the 
+<a href="http://robotics.usc.edu/~ahoward/movies/playerv-lasercspace-0.avi">
+laser configuration space device</a>.</dl>
+
+<dt>13 Sep 2002<dd><dl><dt>Player and Stage now run on Sparc/Solaris.
+There is not yet a stable release for this platform, but you can get a 
+<a href=http://sourceforge.net/mailarchive/forum.php?thread_id=1064771&forum_id=7507>
+CVS snapshot</a>.</dl>
+
+<dt>11 Sep 2002<dd><dl><dt>Some sample movies taken from playerv
+showing two of the new drivers available in the upcoming release: the
+<a href="http://robotics.usc.edu/~ahoward/movies/playerv-fiducial-0.avi">
+laser/visual fiducial detector</a>, and the 
+<a href="http://robotics.usc.edu/~ahoward/movies/playerv-lasercspace-0.avi">
+laser configuration space device</a>.</dl>
+
+<dt>8 July 2002<dd><dl><dt>Maxim's Java client updated for Player 1.2 (will
+also work with 1.2.3)<dd><a
+href="http://www-robotics.usc.edu/~maxim/JavaClient/jc.htm">Java client
+page</a></dl>
+
+<dt>7 July 2002<dd><dl><dt>Player and Stage 1.2.3 released<dd>Fixes several
+bugs and adds some speedups. <dd><a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">Download
+page</a></dl>
+
+<dt>26 June 2002<dd><dl><dt>Player-1.2.2.diff released<dd>replaces Player-1.2.1-diff (fixes heading bug reported by Alex Makarenko)<dd>permits compilation under GCC-3.1. <dd><a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">Download
+page</a></dl>
+
+<dt>24 June 2002<dd>Player-1.2.1.diff released. This small patch adds
+support for Stage's ground-truth device [world-file tag: truth()] to
+Player's C++ client with the TruthProxy. <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">Download
+page</a>
+
+<dt>20 June 2002<dd><a
+href="http://robotics.usc.edu/~boyoon/pyplayer/">PyPlayer v.1.2</a>
+released. Boyoon Jung's python client library for Player-1.2.
+
+<dt>20 June 2002<dd><a href="http://sourceforge.net/survey/survey.php?group_id=42445&survey_id=13228">Which client library do you use?</a>
+
+<dt>10 June 2002<dd><font color=#FF0000>Player/Stage version 1.2 has
+been released! Get it from the <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">download</a>
+page.</font>
+
+</dl>
+
+<h3>Very old news</h3>
+<ul>
+<li><b> 10:30 January 7 2002</b> - Happy new year!  Version 1.1 (bug-fix release)
+is now available. Get it from the <a href=download.html>download page</a>.
+<li><b> 19:00 October 12 2001</b> - Version 1.0 released!
+    Get it from the <a href=download.html>download page</a>.
+<li><b> 13:46 October 8 2001</b> - A Common LISP client library is
+now included with the <a href=download.html>distribution</a>.  Not all
+devices are supported, and there is no documentation, but it works
+(at least with <a href="http://clisp.cons.org/">GNU CLISP</a>).
+<li><b> 13:02 September 13 2001</b> - New Java client libraries added to the
+<a href=clients/clients.html>clients</a> page.
+<li><b> 17:06 August 21 2001</b> - Version 1.0-beta released (bug-fix version). 
+    Get it from the <a href=download.html>download page</a>.
+<li><b> 20:38 August 16 2001</b> - Version 1.0-alpha released. 
+    Get it from the <a href=download.html>download page</a>.
+<li><b>17:45 29 June 2001</b> - The most recent version of the code
+(Bleeding edge) is now available for <a href=download.html>download</a>.
+Also, recent versions of the Player user manual are now
+<a href=doc/doc.html>available</a>.
+<li><b>14:50 27 May 2001</b> - <a href=player/player.html>Player</a>, 
+    <a href=stage/stage.html>Stage</a>, and 
+    <a href=player-tools/player-tools.html>PlayerTools</a> v0.9.1 released
+    (fixed small bug in distro script).<br>
+    Get them from the <a href=download.html>download page</a>.
+<li><b>16:57 25 May 2001</b> -  <a href=player/player.html>Player</a>, 
+    <a href=stage/stage.html>Stage</a>, and 
+    <a href=player-tools/player-tools.html>PlayerTools</a> v0.9 released <br>
+</ul>
+
+
+</dl>
+
+
+

@@ -1,0 +1,113 @@
+<HTML>
+
+<!-- 	$Id: visualization.html,v 1.39 2005/06/15 18:16:32 gerkey Exp $	 -->
+<!-- 	$Source: /cvsroot/playerstage/www/player-www/player/visualization.html,v $	 -->
+
+<HEAD>
+
+<body bgcolor="#FFFFFF" text="#000000" LINK="#AA0000"VLINK="#770000" ALINK="#CC0000">
+<meta name="keywords" content="">
+<TITLE>Player/Stage</TITLE>
+
+</HEAD>
+
+<!-- home ../ -->
+
+<!-- head -->
+<table align=center cellpadding=10 width=100%>
+<tr>
+<td valign=top bgcolor="#656565">
+<table>
+<tr><td colspan=2><a href="../images/logo_project.png">
+<img border=0 src="../images/notext_ps_logo.jpg"></a>
+<tr><td colspan=2><a href="../index.html"><font color="#FFFFFF">Home</font></a>
+<tr><td colspan=2><a href="../faq.html"><font color="#FFFFFF">FAQ</font></a>
+<tr><td colspan=2><a href="../player/player.html"><font color="#FFFFFF">Player</font></a>
+<tr><td colspan=2><a href="http://playerstage.sourceforge.net/doc/Player-cvs-html/player/utilities.html"><font color="#FFFFFF">Utilities</font></a><tr><td colspan=2><a href="../stage/stage.html"><font color="#FFFFFF">Stage</font></a>
+<tr><td colspan=2><a href="../gazebo/gazebo.html"><font color="#FFFFFF">Gazebo</font></a>
+<tr><td colspan=2><a href="../contrib.html"><font color="#FFFFFF">Contrib</font></a>
+<tr><td colspan=2><a href="../doc/doc.html"><font color="#FFFFFF">Documentation</font></a>
+<tr><td colspan=2><a href="../pubs.html"><font color="#FFFFFF">Publications</font></a>
+<tr><td colspan=2><a href="../credits.html"><font color="#FFFFFF">Contributors</font></a>
+<tr><td colspan=2><a href="../users/users.html"><font color="#FFFFFF">Users</font></a>
+</table>
+<br>
+<table bgcolor="#858585"
+><tr><td><a href="http://sourceforge.net"><img border=0 src="http://sourceforge.net/sflogo.php?group_id=42445&type=1"></a>
+<tr><td><a href="http://sourceforge.net/projects/playerstage"><font color="#FFFFFF">Project</font></a>
+<tr><td><a href="http://sourceforge.net/project/showfiles.php?group_id=42445"><font color="#FFFFFF">Download</font></a>
+<tr><td><a href="http://sourceforge.net/tracker/?group_id=42445"><font color="#FFFFFF">Bugs/Feedback</font></a>
+<tr><td><a href="http://sourceforge.net/mail/?group_id=42445"><font color="#FFFFFF">Mailing lists</font></a>
+</table>
+<br><table>
+<tr><td><a href="http://radish.sourceforge.net/"><font color="#FFFFFF">Radish</font></a>
+</table>
+<br><table>
+<tr><td><a href="../news.html"><font color="#AAAAAA">Old news</font></a>
+<tr><td><a href="../old.html"><font color="#AAAAAA">Old stuff</font></a>
+</table>
+<br><table>
+<tr><td><img src="../images/ps_logo_vertical.jpg"></table>
+</td>
+<td valign=top bgcolor="#FFFFFF" width=100%>
+<!-- /head -->
+
+<h1>Player Visualization tools</h1>
+<p>
+For the purposes of visualizing robot sensor data, we currently provide two
+graphical tools: <a href=#tkviewer><tt>tkviewer</tt></a> 
+and <a href=#playerv><tt>playerv</tt></a>, summarized below.
+Both tools are available in the Player distribution, and will be installed
+in the <tt>bin</tt> directory alongside the Player server.
+</p>
+<p>
+<hr>
+<h3>playerv</h3>
+<a name=playerv>
+<tt>playerv</tt> is a Player visualization tool written in pure ANSI C, and
+uses the <tt>libplayerc</tt> client package and the RTK graphics library
+(both also included with Player).
+<tt>playerv</tt> will visualize data from most Player devices, and allows
+you to control the position and ptz devices.  The presentation format very
+much resembles that of Stage.
+</p>
+<p>
+A sample screenshot:
+</p>
+<p>
+<center>
+<img src="../images/playerv.jpg">
+</center>
+</p>
+And some sample movies of the
+<a href="http://robotics.usc.edu/~ahoward/movies/playerv-fiducial-0.avi">
+laser/visual fiducial detector</a>, and the 
+<a href="http://robotics.usc.edu/~ahoward/movies/playerv-lasercspace-0.avi">
+laser configuration space device</a>.<p>
+<hr>
+<h3>tkviewer</h3>
+<a name=tkviewer>
+<tt>tkviewer</tt> is a Player visualization tool written in Tcl/Tk, which
+uses the <tt>Tclplayer</tt> client package (also included with Player).
+<tt>tkviewer</tt> can visualize data from most Player devices, and allows
+you to control the position and ptz devices.
+</p>
+<p>
+A sample screenshot:
+</p>
+<p>
+<center>
+<img src="../images/tkviewer.jpg">
+</center>
+</p>
+
+<!-- foot -->
+</td></tr></table>
+<br><hr>
+Last updated $Date: 2005/06/15 18:16:32 $
+<!-- /foot -->
+
+</BODY>
+
+</HTML>
+

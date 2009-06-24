@@ -1,0 +1,194 @@
+
+<img width=140 src="images/gazebo_button.png" alt="Gazebo piece"><br>
+<p style="margin-top:0;">3D multiple robot simulator with dynamics
+
+<hr>
+
+
+<h3>About Gazebo</h3>
+
+<p>Gazebo is a multi-robot simulator for outdoor environments.  Like
+Stage, it is capable of simulating a population of robots, sensors and
+objects, but does so in a three-dimensional world.  It generates both
+realistic sensor feedback and physically plausible interactions
+between objects (it includes an accurate simulation of rigid-body
+physics).</p>
+
+<p>Features:</p>
+<ul>
+<li>Simulation of standard robot sensors, including sonar, scanning
+laser range-finders, GPS and IMU, monocular and stereo cameras.
+<li>Models for commonly used robot types such as the Pioneer2DX,
+Pioneer2AT and SegwayRMP.
+<li>Realistic simulation of rigid-body physics: robots can push things
+around, pick things up, and generally interact with the world in a
+plausible manner.
+<li>Player compatible: robots and sensors can be controlled through
+standard Player interfaces.
+<li>Stand-alone operation: programs can interact directly with the
+simulator (i.e., without going through Player) using <tt>libgazebo</tt>
+(included in the distribution).
+
+<li><b>New</b> Stereo camera model: generates stereo image
+pairs, disparity and depth maps.
+
+<li><b>New</b> Completely re-written GUI using wxPython: most
+devices can now be directly controlled/inspected through the simulator
+GUI.
+
+<li><b>New</b> Plugin models: users can develop their own
+robot/sensor models, and have these models loaded dynamically at run
+time.
+
+<li><b>New</b> Skins: simple geometric models may be augmented
+with realisitc 'skins' from 3D modelling programs.
+
+<li>Gazebo is free software, released under the GNU Public License.
+You are free to use, extend and modify Gazebo according to your needs,
+but we would appreciate it if you would <a
+href="http://sourceforge.net/tracker/?group_id=42445">send us your
+patch</a>.  
+</ul>
+
+<br> Gazebo can be downloaded from the
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">SourceForge
+Download Page</a>.
+
+
+<h3>Stage and Gazebo</h3>
+
+<p> The Player/Stage project provides two multi-robot simulators:
+Stage and Gazebo.  Since Stage and Gazebo are both Player-compatible,
+client programs written using one simulator can usually be run on the
+other with little or no modification.  The key difference between
+these two simulators is that whereas Stage is designed to simulate a
+very large robot population with low fidelity, Gazebo is designed to
+simulated a small population with high fidelity.  Thus, the two
+simulator are complimentary, and users may switch back and forth
+between them according to their needs. </p>
+
+
+<h3>Screen Shots</h3>
+
+<div align="center">
+
+<table>
+<tr>
+<td><a href="gazebo/gazebo_at.gif"><img src="images/gazebo_at.gif" alt="gazebo_at" 
+"height=150"></a></td>
+<td><a href="images/gazebo_at_frustrum.gif"><img 
+src="images/gazebo_at_frustrum.gif" alt="gazebo_at_frustrum" "height=150"></a></td>
+<td><a href="images/gazebo_at_rays.gif"><img src="images/gazebo_at_rays.gif" alt="gazebo_at_rays" "height=150"></a></td>
+<td><a href="images/gazebo_at_wireframe.gif"><img src="images/gazebo_at_wireframe.gif" alt="gazebo_at_wireframe" "height=150"></a></td>
+</tr>
+<tr>
+<td colspan="4">
+<p>Pioneer2AT with a SICKLMS200 and SonyVID30, showing both laser rays and
+camera frustrum.
+</td>
+</tr>
+</table>
+
+<br>
+<table>
+<tr>
+<td><a href="images/wxgazebo.gif"><img src="images/wxgazebo.gif" alt="wxgazebo" "height=300"></a></td>
+</tr>
+<tr>
+<td>
+<p>The wxPython GUI, showing a number of control panels.
+</td>
+</tr>
+</table>
+
+<br>
+<table>
+<tr>
+<td><a href="images/gazebo_car_naked.gif"><img src="images/gazebo_car_naked.gif" alt="gazebo_car_naked" "height=150"></a></td>
+<td><a href="images/gazebo_car_skin.gif"><img src="images/gazebo_car_skin.gif" alt="gazebo_car_skin" "height=150"></a></td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Models with and without skins.
+</td>
+</tr>
+</table>
+
+</div>
+
+<h3>Sample Videos</h3>
+
+<p>
+<center>
+<b>These videos may not be used for commercial or for-profit purposes. They are
+copyrighted by the authors.</b>
+</center>
+</p>
+
+<div align="center">
+
+<table>
+
+<tr>
+<td><a href="images/gazebo_collisions.gif"><img src="images/gazebo_collisions.gif" alt="gazebo_collisions" "height=200"></a></td>
+<td>
+<p>Collision testing with one robot.
+<p><a href="http://robotics.usc.edu/~ahoward/movies/gazebo_collisions.mov">gazebo_collisions.mov</a> 25Mb
+</td>
+</tr>
+
+<tr>
+<td><a href="images/gazebo_deploy.gif"><img src="images/gazebo_deploy.gif" alt="gazebo_deploy" "height=200"></a></td>
+<td>
+<p>Deployment with 100 robots (using a plugin model).
+<p><a href="http://robotics.usc.edu/~ahoward/movies/gazebo_deploy_102_41_10fps.mov">gazebo_deploy_102_41_10fps.mov</a> 16Mb
+</td>
+</tr>
+
+<tr>
+<td><a href="images/gazebo_collide.gif"><img src="images/gazebo_collide.gif" alt="gazebo_collide" "height=200"></a></td>
+<td>
+<p>Collision testing with two robots.
+<p><a href="http://robotics.usc.edu/~ahoward/movies/gazebo-collide-15fps.avi">gazebo-collide-15fps.avi</a> 9Mb
+</td>
+</tr>
+
+<tr>
+<td><a href="images/gazebo_swing.gif"><img src="images/gazebo_swing.gif" alt="gazebo_swing" height=200></a></td>
+<td>
+<p>Interacting with the environment.
+<p><a href="http://robotics.usc.edu/~ahoward/movies/gazebo-swing-15fps.avi">gazebo-swing-15fps.avi</a> 31Mb
+</td>
+</tr>
+
+<tr>
+<td><a href="images/gazebo_walker.gif"><img src="images/gazebo_walker.gif" alt="gazebo_walker" height=200></a></td>
+<td>
+<p>NASA JPL spiderbot by Dylan Shell and Gabe Sibley.  Check out the
+<a href="http://www-robotics.usc.edu/~dshell/hex/hex.html">project page</a>.
+<p><a href="http://robotics.usc.edu/~ahoward/movies/gazebo-walker.avi">gazebo-walker.avi</a> 18Mb
+</td>
+</tr>
+
+<tr>
+<td><a href="images/gazebo_segwayrmp.gif"><img src="images/gazebo_segwayrmp.gif" alt="gazebo_segwayrmp" height=200></a></td>
+<td>
+<p>Early Segway RMP model, with non-inverted pendulum dynamics.  
+<p><a href="http://robotics.usc.edu/~ahoward/movies/gazebo-segwayrmp-good.avi">gazebo-segwayrmp-good.avi</a> 29Mb
+</td>
+</tr>
+
+<tr>
+<td><a href="images/gazebo_segwayrmp.gif"><img src="images/gazebo_segwayrmp.gif" alt="gazebo_segwayrmp" height=200></a></td>
+<td>
+<p>Early Segway RMP model, with divergent dynamics (blooper reel).
+<p><a href="http://robotics.usc.edu/~ahoward/movies/gazebo-segwayrmp-bad.avi">gazebo-segwayrmp-bad.avi</a> 35Mb
+</td>
+</tr>
+
+
+
+</table>
+</div>
+
+

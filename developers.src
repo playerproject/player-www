@@ -1,0 +1,104 @@
+<h1>Developers, roles, and permissions</h1>
+
+<p>
+Below is a list of people who have SF.net Developer access to the Player
+Project Subversion repository.  For each person, we give SF.net username,
+specify a role, and enumerate the
+directories to which this developer is allowed to commit.
+</p>
+
+<p>
+Because
+SF.net's Subversion setup does not allow per-directory access control, it's
+up to the developers and maintainers to follow and enforce this policy.
+</p>
+
+<p>
+All directories are specified relative to the repository path <b>code</b>.  Write permission to a directory implies permission to write in subdirectories.
+</p>
+
+<hr>
+<h2>Developer list (alphabetical)</h2>
+
+<ul>
+<li><b>Geoff Biggs</b>
+  <ul>
+  <li><b>username:</b> gbiggs
+  <li><b>role(s):</b> Player developer
+  <li><b>directories</b>:
+    <ul>
+    <li>player
+    </ul>
+  </ul>
+<p>
+
+<li><b>Toby Collett</b>
+  <ul>
+  <li><b>username:</b> thjc
+  <li><b>role(s):</b> Player developer
+  <li><b>directories</b>:
+    <ul>
+    <li>player
+    </ul>
+  </ul>
+<p>
+
+<li><b>Brian Gerkey</b>
+  <ul>
+  <li><b>username:</b> gerkey
+  <li><b>role(s):</b> project maintainer, Player lead
+  <li><b>directories</b>:
+    <ul>
+    <li>player
+    <li>stage
+    </ul>
+  </ul>
+<p>
+
+<li><b>Andrew Howard</b>
+  <ul>
+  <li><b>username:</b> inspectorg
+  <li><b>role(s):</b> project maintainer (emeritus)
+  <li><b>directories</b>:
+  </ul>
+<p>
+
+<li><b>Nate Koenig</b>
+  <ul>
+  <li><b>username:</b> natepack
+  <li><b>role(s):</b> project maintainer, Gazebo lead
+  <li><b>directories</b>:
+    <ul>
+    <li>gazebo
+    <li>player
+    </ul>
+  </ul>
+<p>
+
+<li><b>Radu Rusu</b>
+  <ul>
+  <li><b>username:</b> veedee
+  <li><b>role(s):</b> Player driver, client lib developer
+  <li><b>directories</b>:
+    <ul>
+    <li>player/server/drivers
+    <li>player/client_libs
+    <li>player/config
+    <li>player/examples
+    <li>player/doc
+    </ul>
+  </ul>
+<p>
+
+<li><b>Richard Vaughan</b>
+  <ul>
+  <li><b>username:</b> rtv
+  <li><b>role(s):</b> project maintainer, Stage lead
+  <li><b>directories</b>:
+    <ul>
+    <li>stage
+    <li>player
+    </ul>
+  </ul>
+</ul>
+

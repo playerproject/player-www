@@ -1,0 +1,145 @@
+<HTML>
+
+<!-- 	$Id: mezzanine.html,v 1.35 2005/06/15 18:16:32 gerkey Exp $	 -->
+<!-- 	$Source: /cvsroot/playerstage/www/player-www/mezzanine/mezzanine.html,v $	 -->
+
+<HEAD>
+
+<body bgcolor="#FFFFFF" text="#000000" LINK="#AA0000"VLINK="#770000" ALINK="#CC0000">
+<meta name="keywords" content="">
+<TITLE>Player/Stage</TITLE>
+
+</HEAD>
+
+<!-- home ../ -->
+
+<!-- head -->
+<table align=center cellpadding=10 width=100%>
+<tr>
+<td valign=top bgcolor="#656565">
+<table>
+<tr><td colspan=2><a href="../images/logo_project.png">
+<img border=0 src="../images/notext_ps_logo.jpg"></a>
+<tr><td colspan=2><a href="../index.html"><font color="#FFFFFF">Home</font></a>
+<tr><td colspan=2><a href="../faq.html"><font color="#FFFFFF">FAQ</font></a>
+<tr><td colspan=2><a href="../player/player.html"><font color="#FFFFFF">Player</font></a>
+<tr><td colspan=2><a href="http://playerstage.sourceforge.net/doc/Player-cvs-html/player/utilities.html"><font color="#FFFFFF">Utilities</font></a><tr><td colspan=2><a href="../stage/stage.html"><font color="#FFFFFF">Stage</font></a>
+<tr><td colspan=2><a href="../gazebo/gazebo.html"><font color="#FFFFFF">Gazebo</font></a>
+<tr><td colspan=2><a href="../contrib.html"><font color="#FFFFFF">Contrib</font></a>
+<tr><td colspan=2><a href="../doc/doc.html"><font color="#FFFFFF">Documentation</font></a>
+<tr><td colspan=2><a href="../pubs.html"><font color="#FFFFFF">Publications</font></a>
+<tr><td colspan=2><a href="../credits.html"><font color="#FFFFFF">Contributors</font></a>
+<tr><td colspan=2><a href="../users/users.html"><font color="#FFFFFF">Users</font></a>
+</table>
+<br>
+<table bgcolor="#858585"
+><tr><td><a href="http://sourceforge.net"><img border=0 src="http://sourceforge.net/sflogo.php?group_id=42445&type=1"></a>
+<tr><td><a href="http://sourceforge.net/projects/playerstage"><font color="#FFFFFF">Project</font></a>
+<tr><td><a href="http://sourceforge.net/project/showfiles.php?group_id=42445"><font color="#FFFFFF">Download</font></a>
+<tr><td><a href="http://sourceforge.net/tracker/?group_id=42445"><font color="#FFFFFF">Bugs/Feedback</font></a>
+<tr><td><a href="http://sourceforge.net/mail/?group_id=42445"><font color="#FFFFFF">Mailing lists</font></a>
+</table>
+<br><table>
+<tr><td><a href="http://radish.sourceforge.net/"><font color="#FFFFFF">Radish</font></a>
+</table>
+<br><table>
+<tr><td><a href="../news.html"><font color="#AAAAAA">Old news</font></a>
+<tr><td><a href="../old.html"><font color="#AAAAAA">Old stuff</font></a>
+</table>
+<br><table>
+<tr><td><img src="../images/ps_logo_vertical.jpg"></table>
+</td>
+<td valign=top bgcolor="#FFFFFF" width=100%>
+<!-- /head -->
+
+<h1>Mezzanine</h1>
+<h2>An Overhead Visual Object Tracker</h2>
+
+<p><b>Important note</b>: Mezzanine is no longer under active
+development, and is officially orphaned.  Contact <a
+href="http://robotics.usc.edu/~ahoward/">me</a> if you are interested
+in becoming the new maintainer.
+
+
+<p>Mezzanine is an overhead 2D visual tracking package intended primarily
+for use as a mobile robot metrology system.  It uses a camera to track
+objects marked with color-coded fiducials, and infers the pose
+(position and orientation) of these objects in world coordinates.
+Mezzanine will work with most color cameras (even the really cheap
+ones), and can correct for the barrel distortion produced by
+wide-angle-lenses.</p>
+
+<p>Mezzanine is language and architecture neutral: object poses are
+written into a shared memory-mapped file which other programs can read
+and make use of as they see fit.  Mezzanine itself is written in pure
+C and was developed under Linux on x86 hardware.</p>
+
+<p>Mezzanine consists of three main components:
+<ul>
+<li> <tt>mezzanine</tt> : the tracking program.
+<li> <tt>mezzcal</tt> : a calibration program (for settings colors, etc).
+<li> <tt>libmezz</tt> : an IPC library for communicating with <tt>mezzanine</tt>.
+</ul>
+
+
+<h4><tt>mezzanine</tt> : the tracking program</h4>
+
+<p><tt>mezzanine</tt> captures images from a frame-grabber using
+Video4Linux, classifies and segments the images into colored blobs,
+groups the blobs into known types of objects, computes the world
+coordinates of these objects using a ground plane constraint (i.e.,
+all objects are assumed to be either on the ground or at some constant
+height above the ground), and writes the location of objects into a
+shared memory-mapped file.  Other processes can from read this file
+using <tt>libmezz</tt>, or through their own native memory-mapped file
+API.</p>
+
+<p>On a 700Mhz PIII, <tt>mezzanine</tt> is able to process 30
+frames/second (i.e. the full NTSC frame-rate) while utilising about
+70\% of the CPU.</p>
+
+
+<h4><tt>mezzcal</tt> : the calibration program</h4>
+
+<p><tt>mezzcal</tt> is a gui tool used calibrate the system.  Users can
+control the color classes, blob properties, and image-to-world
+transformation through a simple drag-and-drop interface.  <tt>
+mezzcal</tt> is witten using <tt>RTK2</tt> (a GUI toolkit for robotics
+applications), which is in turn based on GTK+ (the GIMP Toolkit).</p>
+
+<img src="mezzcal.jpg" align=center>
+
+
+<h4><tt>libmezz</tt> : the IPC library</h4>
+
+<p>The <tt>libmezz</tt> library provides a convenient C interface to <tt>
+mezzanine</tt>.  It defines a small set of functions and structures
+through which client programs written by users can interact with <tt>
+mezzanine</tt>.  Note that this library is provided mainly for
+convenience: users are free to write native interfaces to <tt>
+mezzanine</tt> in any language they see fit, so long as that language
+supports access to shared memory-mapped files.</p>
+
+
+<br><br>
+<p>See the <a href="../doc/doc.html">Mezzanine User Manual</a> for more details
+on Mezzanine.</p>
+
+<p>Mezzanine was developed at the <a
+href="http://robotics.usc.edu">USC Robotics Research Lab</a>, and is
+based partly on code developed for the <a
+href="http://www.cs.mu.oz.au/robocup">University of Melbourne's
+RoboCup Team</a>.
+
+
+
+<!-- foot -->
+</td></tr></table>
+<br><hr>
+Last updated $Date: 2005/06/15 18:16:32 $
+<!-- /foot -->
+
+</BODY>
+
+</HTML>
+

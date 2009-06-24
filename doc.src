@@ -1,0 +1,71 @@
+
+<h1>Documentation</h1>
+<hr>
+
+<p>
+Documentation is available for both specific package releases and for the CVS tree.  Make sure you use the documentation that is
+appropriate for your installed packages. <b>If, like most people, you are using the current released version of Player, Stage or
+Gazebo, you should use the documents from the 'Current' (blue) section.</b>
+</p><p>
+
+<table bgcolor="#ccccff" border="0" width="100%">
+<tbody><tr><td colspan="4"><h2>Current Documentation</h2>
+</td></tr><tr bgcolor="#aaaaff"><th align="left">Package</th><th align="left">Manual</th><th align="left">Version</th><th align="left">Links
+
+</th></tr><tr><th align="left">Player</th><td>User / reference manual </td><td>2.0.5 </td><td>[<a href="http://playerstage.sourceforge.net/doc/Player-2.0.0/player">HTML</a>]
+</td></tr><tr><th align="left">Stage</th><td>User / reference manual </td><td>2.0.4</td><td>[<a href="http://playerstage.sourceforge.net/doc/Stage-2.0.0">HTML</a>]
+</td></tr><tr><th align="left">Gazebo</th><td>Gazebo user / reference manual </td><td>0.8.0-pre1 </td><td>[<a href="http://playerstage.sourceforge.net/doc/Gazebo-manual-0.8.0-pre1-html/">HTML</a>]
+</td></tr><tr> <th align="left">All </th><td> Pre-compiled  packages and scripts </td><td> </td><td> [<a href="http://playerstage.sourceforge.net/doc/packages/">HTML</a>]
+
+</td></tr></tbody></table>
+
+</p><p>
+
+<table bgcolor="#ccffcc" border="0" width="100%">
+<tbody><tr><td colspan="4"><h2>CVS (Experimental) Documentation</h2>
+</td></tr><tr bgcolor="#aaffaa"><th align="left">Package</th><th align="left">Manual</th><th align="left">Branch</th><th align="left">Links
+
+</th></tr><tr><th align="left">Player</th><td>User / reference manual </td><td>SVN HEAD </td><td>[<a href="http://playerstage.sourceforge.net/doc/Player-cvs/player">HTML</a>]
+<!-- [<a href="http://player.robotux.info/">More up-to-date HTML</a>]</td></tr> -->
+<tr><th align="left">Gazebo</th><td>Gazebo user / reference manual </td><td>SVN HEAD </td><td>[<a href="http://playerstage.sourceforge.net/doc/Gazebo-manual-svn-html/">HTML</a>]
+<!-- [<a href="http://gazebo.robotux.info/">More up-to-date
+HTML</a>] -->
+</td></tr><tr><th align="left">Stage</th><td>User / reference manual </td><td>CVS HEAD</td><td>[<a href="http://playerstage.sourceforge.net/doc/stage-cvs">HTML</a>]
+<!-- [<a href="http://stage.robotux.info/">More up-to-date
+HTML</a>] -->
+
+</td></tr></tbody></table>
+
+</p><p>
+
+<table bgcolor="#ffcccc" border="0" width="100%">
+<tbody><tr><td colspan="4"><h2>Older Documentation</h2>
+</td></tr><tr bgcolor="#ffaaaa"><th align="left">Package</th><th align="left">Manual</th><th align="left">Version</th><th align="left">Links
+
+</td></tr><tr><th align="left">Stage</th><td>User / reference manual </td><td>2.0.0a</td><td>[<a href="http://playerstage.sourceforge.net/doc/stage-2.0.0a">HTML</a>]
+</th></tr><tr><th align="left">Player</th><td>User / reference manual </td><td>1.6.5 </td><td>[<a href="http://playerstage.sourceforge.net/doc/Player-1.6.5/player-html">HTML</a>]
+</td></tr><tr><th align="left">Player/Stage</th><td>P/S Getting Started: installation, setup and testing.</td><td>1.6.1</td><td>[<a href="http://playerstage.sourceforge.net/doc/ps_getting_started-1.6.txt">ASCII</a>]
+</th></tr><tr><th align="left">Player</th><td>User manual</td><td>1.5
+  </td><td>[<a href="http://playerstage.sourceforge.net/doc/Player-manual-1.5.ps.gz">gzipped PS</a>]
+      [<a href="http://playerstage.sourceforge.net/doc/Player-manual-1.5.pdf">PDF</a>]
+      [<a href="http://playerstage.sourceforge.net/doc/Player-manual-1.5-html/node1.html">HTML</a>]
+
+</td></tr><tr><th align="left">Player</th><td>C++ client library reference</td><td>1.5
+  </td><td>[<a href="http://playerstage.sourceforge.net/doc/Player-cppclient-1.5.ps.gz">gzipped PS</a>]
+      [<a href="http://playerstage.sourceforge.net/doc/Player-cppclient-1.5.pdf">PDF</a>]
+      [<a href="http://playerstage.sourceforge.net/doc/Player-cppclient-1.5-html/node1.html">HTML</a>]
+
+</td></tr><tr><th align="left">Player</th><td>libplayerc C client library reference</td><td>1.5
+  </td><td>[<a href="http://playerstage.sourceforge.net/doc/Player-libplayerc-1.5.ps.gz">gzipped PS</a>]
+      [<a href="http://playerstage.sourceforge.net/doc/Player-libplayerc-1.5.pdf">PDF</a>]
+      [<a href="http://playerstage.sourceforge.net/doc/Player-libplayerc-1.5-html/node1.html">HTML</a>]
+
+</td></tr><tr><th align="left">Stage</th><td>User manual</td><td>1.3.3</td><td>[<a href="http://playerstage.sourceforge.net/doc/Stage-manual-1.3.3.ps.gz">gzipped PS</a>] [<a href="http://playerstage.sourceforge.net/doc/Stage-manual-1.3.3.pdf">PDF</a>][<a href="http://playerstage.sourceforge.net/doc/Stage-manual-1.3.3-html/node1.html">HTML</a>]
+
+</td></tr><tr><th align="left">Mezzanine</th><td>User manual</td><td>0.00</td><td>[<a href="http://playerstage.sourceforge.net/doc/mezzanine-manual-0.00.pdf">PDF</a>]
+</td></tr></tbody></table>
+
+</p><h2>See also</h2>
+Check <a href="http://playerstage.sourceforge.net/faq.html#more_info">here</a> for more documentation,
+installation instructions for particular platforms, etc.
+

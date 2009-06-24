@@ -1,0 +1,30 @@
+
+<h1>Old Software</h1>
+
+<p>This page lists Player Project software that is no longer
+maintained. 
+
+<p>If you are interested in taking over maintenance of any package,
+please contact the listed author.
+
+<ul>
+
+<li>
+<h4><a href=mezzanine/mezzanine.html>Mezzanine</a> by <a
+href="http://robotics.usc.edu/~ahoward/">Andrew Howard</a></h4>
+
+<a href=mezzanine/mezzanine.html>Mezzanine</a> is an overhead 2D
+visual tracking package intended primarily for use as a mobile robot
+metrology system.  It uses a camera to track objects marked with
+color-coded fiducials, and infers the pose (position and orientation)
+of these objects in world coordinates.  Mezzanine will work with most
+color cameras (even the really cheap ones), and can correct for the
+barrel distortion produced by wide-angle-lenses.
+
+<p>Mezzanine is language and architecture neutral: object poses are
+written into a shared memory-mapped file which other programs can read
+and make use of as they see fit.  Mezzanine itself is written in pure
+C and was developed under <b>Linux</b> on x86 hardware.
+
+
+</ul>

@@ -1,0 +1,33 @@
+
+<h1>Contributors</h1>
+
+<p>
+A list of non-developers who have made substantial contributions to the Player Project.  If we have accidentally left you out, please contact <a href="http://sourceforge.net/users/gerkey">Brian Gerkey</a>.
+
+<p>
+Thanks for contributing to the project!
+
+<ul>
+<li>Reed Hedges (Stage)
+<li>Kasper St&oslash;y (original implementation of Player)
+<li>Josh Bers (fixes for ARM/Linux, p2os_sound driver)
+<li>Jason K. Douglas (upgrade ACTS driver to v1.2)
+<li>Kim Jinsuck (radio modem support for P2OS driver)
+<li>Andy Martignoni III (update of RWI drivers, CMVision driver)
+<li>Nik Melchior (RWI drivers)
+<li>Esben &Oslash;stergaard (Java client, Audio device, original laser beacon device).
+<li>John Sweeney (cross-compile to ARM/Linux, REB drivers).
+<li>Maxim Batalin (Java client)
+<li>Brendan Burns</a> (Common LISP client)
+<li>Jason K. Douglas (port of C++ client to Win32)
+<li>Torbj&oslash;rn Dahl</a> (Ruby client)
+<li>Jakob Fredslund</a> (Java client)
+<li>Boyoon Jung</a> (Python client)
+<li>Gautam Dandavate dandavat at usc.edu (3DS models)
+<li>University of Melbourne RoboCup Team</a> (tracking code that became Mezzanine)
+</ul>
+
+<!-- <li>Content by the maintainers
+<li>Design by Richard Vaughan -->
+
+</ul>

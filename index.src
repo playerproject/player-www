@@ -1,0 +1,140 @@
+
+<h1 style="margin-top:0em; margin-bottom:-0.4em; size:180%">The Player Project</h1>
+<p>Free Software tools for robot and sensor applications
+
+<hr>
+
+<p style="font-size:70%;"><i>"All the world's a stage, And all the men and women merely players."</i>
+<br>- William Shakespeare, As You Like It
+
+<hr>
+
+
+<h2>News</h2>
+
+<ul class="news">
+<li><b>10 Mar 2008:</b> Player source moves from CVS to Subversion (SVN).
+Please <a href="http://sourceforge.net/svn/?group_id=42445">use SVN</a>
+to check out Player from now on.  The CVS Player code is deprecated.
+All version history should have been preserved in the migration.
+<li><b>13 Dec 2007:</b> Two release candidates: Player 2.1.0rc1 and Stage 
+2.1.0rc1.  These releases are intended for advanced users to test and
+assist in debugging, prior to final 2.1.0 releases.
+Get them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
+<li><b>13 Dec 2007:</b> Two bug-fix releases: Player 2.0.5 and Stage 2.0.4.
+Get them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
+<li><b>13 Dec 2007:</b> We're now over 97,000 downloads from the Player
+Project, and averaging 2,500-3,500 downloads / month (<a href="http://sourceforge.net/project/stats/?group_id=42445&amp;ugn=playerstage">more stats</a>).
+<li><b>22 Aug 2007:</b> We just completed the first <a
+href="http://psscr07.cs.tum.edu/">Player Summer School</a>! It was
+hosted by our colleagues at <a href="http://www.tum.de">Technical University 
+of Munich</a>.  See some <a href="http://ogai.org/events/PSSCR07/index.html">pictures</a>.
+<li><b>2 May 2007:</b> Player 2.0.4 released.  Get
+it from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
+</ul>
+
+<p><a href="index.php?src=news">[ Old news archive... ]</a>
+
+<hr>
+
+<h2>Purpose</h2>
+
+<p>The Player Project creates Free Software that enables
+research in robot and sensor systems. The Player robot server is
+probably the most widely used robot control interface in the
+world. Its simulation backends, Stage and Gazebo, are also very widely
+used.
+
+<p>Released under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU
+General Public License</a>, all code from the Player/Stage project is
+free to use, distribute and modify. Player is developed by an <a
+href="index.php?src=credits">international team of robotics
+researchers</a> and <a href="index.php?src=users"> used at labs
+</a>around the world.
+
+<h2>Software</h2> 
+
+<ul>
+<li><h4><a href="index.php?src=player">Player</A> 
+robot device 
+interface</h4> <a href="index.php?src=player">Player</a> 
+provides a network interface to a variety of robot and sensor
+hardware. Player's client/server model allows robot control programs to be
+written in any programming language and to run on any computer with a
+network connection to the robot. Player supports multiple concurrent
+client connections to devices, creating new possibilities for distributed
+and collaborative sensing and control.
+
+<p>
+Player supports a wide variety of mobile robots and accessories.  Look
+<a href="index.php?src=faq#player_hardware">here</a> for a list of 
+currently supported 
+components.
+
+<li><h4><a href="index.php?src=stage">Stage</A> multiple 
+robot
+simulator</h4> <a href="index.php?src=stage">Stage</a> 
+simulates a
+population of mobile robots moving in and sensing a two-dimensional
+bitmapped environment. Various sensor models are provided, including
+sonar, scanning laser rangefinder, pan-tilt-zoom camera with color
+blob detection and odometry.
+
+<p> Stage devices present a standard Player interface so few or no
+changes are required to move between simulation and hardware. Many
+controllers designed in Stage have been demonstrated to work on real
+robots.
+
+
+<li><h4><a href="index.php?src=gazebo">Gazebo</a> 3D multiple 
+robot simulator</h4>
+
+<a href="index.php?src=gazebo">Gazebo</a> is a multi-robot 
+simulator for
+outdoor environments.  Like Stage, it is capable of simulating a
+population of robots, sensors and objects, but does so in a
+three-dimensional world.  It generates both realistic sensor feedback
+and physically plausible interactions between objects (it includes an
+accurate simulation of rigid-body physics).
+
+<p>Gazebo presents a standard Player interface in addition to its own
+native interface.  Controllers written for the Stage simulator can generally
+be used with Gazebo without modification (and vise-versa).</p>
+
+
+<!--
+<li><h4><a href=mezzanine/mezzanine.html>Mezzanine</a></h4>
+<a href=mezzanine/mezzanine.html>Mezzanine</a> is an overhead 2D
+visual tracking package intended primarily for use as a mobile robot
+metrology system.  It uses a camera to track objects marked with
+color-coded fiducials, and infers the pose (position and orientation)
+of these objects in world coordinates.  Mezzanine will work with most
+color cameras (even the really cheap ones), and can correct for the
+barrel distortion produced by wide-angle-lenses.
+
+<p>Mezzanine is language and architecture neutral: object poses are
+written into a shared memory-mapped file which other programs can read
+and make use of as they see fit.  Mezzanine itself is written in pure
+C and was developed under <b>Linux</b> on x86 hardware.
+
+<p><b>Important note</b>: Mezzanine is no longer under active
+development, and is officially orphaned.  Contact <a
+href="http://robotics.usc.edu/~ahoward/">me</a> if you are interested
+in becoming the new maintainer.
+-->
+
+</ul>
+
+<p>Player Project software runs on <b>Linux, 
+Solaris, *BSD and Mac OSX (Darwin)</b>.</p>
+
+
+<p><a href="index.php?src=oldsoftware">[ see also some older software here... ]</a>
+
+

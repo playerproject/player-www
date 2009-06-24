@@ -1,0 +1,140 @@
+
+<h1>Publications</h1>
+<hr>
+
+<p>These are technical papers from the Player/Stage Project. For manuals, <a href="index.php?src=doc">look here</a>.</p>
+
+<h2>Refereed Conference Papers</h2>
+<ul>
+<li>
+Matthias Kranz, Radu Bogdan Rusu, Alexis Maldonado,
+Michael Beetz, and Albrecht Schmidt,
+"A Player/Stage System for Context-Aware Intelligent 
+Environments".
+To appear in <i>Proceedings of the 
+System Support for Ubiquitous Computing Workshop
+(<a href="http://www.magic.ubc.ca/ubisys/">UbiSys 2006</a>)</i>,
+at the 8th Annual Conference on Ubiquitous Computing (<a
+href="http://ubicomp.org/ubicomp2006/">Ubicomp 2006</a>),
+Orange County, California, September 2006.<br> 
+<A HREF="http://www9.cs.tum.edu/people/rusu/publications/own/Rusu06UbiSys.pdf">[pdf]</A>
+<A HREF="doc/ubicomp2006-poster.jpg">[poster jpg]</A>
+<p>
+<li>
+T.H.J. Collett and B.A. MacDonald,
+"Augmented reality visualisation for player".
+In <i>Proceedings of the the IEEE
+International Conference on Robotics and Automation 
+(<a href="http://www.icra2006.org">ICRA 2006</a>)</i>,
+pages 3954-3959, Orlando, Florida, May 2006.<br>
+<A
+HREF="http://www.ele.auckland.ac.nz/~tcol036/?id=download&s=nature&action=start&category=publications&file=T.Collett_-_ICRA2006_-_Augmented_Reality_Visualisation_for_Player_-_Paper;T.Collett_-_ICRA2006_-_Augmented_Reality_Visualisation_for_Player_-_Paper.pdf">[pdf]</A>
+<p>
+<li>
+Toby H.J. Collett, Bruce A. MacDonald, and Brian P. Gerkey,
+"Player 2.0: Toward a Practical Robot Programming Framework".  
+In <i>Proceedings of the 
+Australasian Conference on Robotics and Automation (<a
+href="http://www.araa.asn.au/acra/acra2005">ACRA 2005</a>)</i>,
+Sydney, Australia, December 2005.<br> 
+<A
+HREF="http://www.araa.asn.au/acra/acra2005/papers/collet.pdf">[pdf]</A>
+<p>
+<li>
+G. Wieczerzak and K. Koztowski,
+"Don't let player get stuck!: Increasing the autonomy of agents".
+In <i>Proceedings of the Fifth International Workshop on 
+Robot Motion and Control (RoMoCo '05)</i>,
+pages 265-270, Dymaczewo, Poland, June 2005.<br>
+[<a href="http://ieeexplore.ieee.org">IEEEXplore</a>]
+<p>
+<li>
+J. Xavier, M. Pacheco, D. Castro, A. Ruano, and U. Nunes,
+"Fast Line, Arc/Circle and Leg Detection from Laser Scan Data in a
+Player Driver".
+In <i>Proceedings of the the IEEE
+International Conference on Robotics and Automation 
+(<a href="http://www.icra2005.org">ICRA 2005</a>)</i>,
+pages 3930-3935, Barcelona, Spain, April 2005.<br>
+<A
+HREF="http://miarn.sourceforge.net/pdf/a1738b.pdf">[pdf]</A>
+<p>
+<li>
+Richard T. Vaughan, Brian Gerkey, and Andrew Howard "On Device
+Abstractions For Portable, Resuable Robot Code".  In <i>Proceedings of the 
+IEEE/RSJ International Conference on Intelligent Robot Systems
+(IROS 2003)</i>,
+pages 2121-2427, Las Vegas, USA, October 2003. <br> 
+<A
+HREF="http://robotics.stanford.edu/~gerkey/research/final_papers/iros03-abstraction.ps.gz">[gzipped
+postscript]</A> <A
+HREF="http://robotics.stanford.edu/~gerkey/research/final_papers/iros03-abstraction.pdf">[pdf]</A>
+<p>
+<li>
+Brian Gerkey, Richard T. Vaughan and Andrew Howard. "The
+Player/Stage Project: Tools for Multi-Robot and Distributed Sensor
+Systems".
+In <i>Proceedings of the 11th International Conference on Advanced Robotics
+(<A HREF="http://www.isr.uc.pt/icar03/">ICAR 2003</A>)</i>,
+pages 317-323,
+Coimbra, Portugal, June 2003. <br>
+<A HREF="http://robotics.stanford.edu/~gerkey/research/final_papers/icar03-player.ps.gz">[gzipped
+postscript]</A> <A HREF="http://robotics.stanford.edu/~gerkey/research/final_papers/icar03-player.pdf">[pdf]</A>  
+ <p>
+<li>Brian P. Gerkey, Richard T. Vaughan, Kasper St&oslash;y, Andrew Howard, 
+Gaurav S. Sukhatme, and Maja J Mataric.
+"Most Valuable Player: A Robot Device Server for Distributed Control".
+In <i>Proceedings of the IEEE/RSJ International Conference
+on Intelligent Robots and Systems 
+(IROS 2001)</i>,
+pages 1226-1231, Wailea, Hawaii, October 29 - November 3, 2001.
+<br>
+<a href="http://robotics.stanford.edu/~gerkey/research/final_papers/iros01-player.ps.gz">[gzipped PS: 160k]</a>
+<a href="http://robotics.stanford.edu/~gerkey/research/final_papers/iros01-player.pdf">[PDF: 424k]</a><br> <br>
+Also appears in <i>Proceedings of the 
+<a href=http://www.cs.cf.ac.uk/User/O.F.Rana/agents2001/>
+Second International Workshop on Infrastructure for 
+Agents, MAS, and Scalable MAS</a> at 
+<a href=http://www.csc.liv.ac.uk/~agents2001/>Autonomous Agents 2001</a></i>,
+Montreal, Canada, May 29, 2001.
+<br>
+<a href="http://robotics.stanford.edu/~gerkey/research/final_papers/aa01-MASwkshp-player.ps.gz">[gzipped PS: 136k]</a>
+<a href="http://robotics.stanford.edu/~gerkey/research/final_papers/aa01-MASwkshp-player.pdf">[PDF: 368k]</a>
+</ul>
+
+<!--
+<h2>Current Submissions</h2>
+<ul>
+
+</ul>
+-->
+
+
+<h2>Technical Reports (which are not otherwise
+published)</h2>
+<ul>
+<li>Richard T. Vaughan.
+"Stage: A Multiple Robot Simulator".  Technical Report 
+<a href="http://iris.usc.edu/~irislib">IRIS</a>-00-394,
+Institute for Robotics and Intelligent Systems,
+School of Engineering, University of Southern California,
+2000.
+<p>
+<li>Brian Gerkey, Kasper St&oslash;y and Richard T. Vaughan.
+"Player Robot Server".  Technical Report 
+<a href="http://iris.usc.edu/~irislib">IRIS</a>-00-392,
+Institute for Robotics and Intelligent Systems,
+School of Engineering, University of Southern California,
+November 2000.
+<br>
+<a href="http://robotics.stanford.edu/~gerkey/research/final_papers/player.ps.gz">[gzipped PS: 120k]</a>
+<a href="http://robotics.stanford.edu/~gerkey/research/final_papers/player.pdf">[PDF: 280k]</a>
+</ul>
+
+<h2>Presentations</h2>
+<ul>
+<li>Invited Presentation, <a href="http://www.darpa.mil/ipto/">Information Processing Technology Office</a>,<a href="http://www.darpa.mil/DARPATech2002"> DARPATech Symposium 2002 </a>. Overview poster. 
+<br>
+<a href="doc/darpatech_2002.pdf">[PDF: 330k]</a>
+</ul>
+
