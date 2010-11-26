@@ -9,6 +9,46 @@ Since we reorganized the website, links here may be broken.
 
 <p>
 <dl>
+<li><b>12 July 2009:</b>Added a Player/Stage 2.1 tutorial contributed by Jenny Owen to the <a href=index.php?src=doc>documentation page</a>. Thanks, 
+Jenny.
+<li><b>30 July 2008:</b> Stage 3.0.1 released.  This is a bugfix release, 
+mainly to address issues with the CMake scripts and the Player plugin.  
+Download it <a 
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">here</a>. 
+Release notes are available <a 
+href="http://sourceforge.net/project/shownotes.php?group_id=42445&release_id=616476">
+here</a>.
+
+<li><b>12 July 2008:</b> Stage-3.0.0 released. You can get it from the
+<a 
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">downloads 
+page</a>. It's 3D and fast, but the Player plugin needs work, so check the 
+release notes to see if it's for you.
+
+<li><b>10 Mar 2008:</b> Player source moves from CVS to Subversion (SVN).
+Please <a href="http://sourceforge.net/svn/?group_id=42445">use SVN</a>
+to check out Player from now on.  The CVS Player code is deprecated.
+All version history should have been preserved in the migration.
+<li><b>13 Dec 2007:</b> Two release candidates: Player 2.1.0rc1 and Stage 
+2.1.0rc1.  These releases are intended for advanced users to test and
+assist in debugging, prior to final 2.1.0 releases.
+Get them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
+<li><b>13 Dec 2007:</b> Two bug-fix releases: Player 2.0.5 and Stage 2.0.4.
+Get them from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
+<li><b>13 Dec 2007:</b> We're now over 97,000 downloads from the Player
+Project, and averaging 2,500-3,500 downloads / month (<a href="http://sourceforge.net/project/stats/?group_id=42445&amp;ugn=playerstage">more stats</a>).
+<li><b>22 Aug 2007:</b> We just completed the first <a
+href="http://psscr07.cs.tum.edu/">Player Summer School</a>! It was
+hosted by our colleagues at <a href="http://www.tum.de">Technical University 
+of Munich</a>.  See some <a href="http://ogai.org/events/PSSCR07/index.html">pictures</a>.
+<li><b>2 May 2007:</b> Player 2.0.4 released.  Get
+it from the 
+<a href="http://sourceforge.net/project/showfiles.php?group_id=42445">usual
+spot</a>.
 <li><b>2 October 2006:</b> We're now over 60,000 downloads from the Player
 Project, and averaging about 2,000 downloads / month (<a href="http://sourceforge.net/project/stats/?group_id=42445&amp;ugn=playerstage">more stats</a>).
 <li><b>30 September 2006:</b> New <a href="http://king.net.pl/playercontrib/guileplayer/guileplayer2">guileplayer2</a>, Guile client library compatible with Player 2.0.3, released.

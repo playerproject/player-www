@@ -15,29 +15,55 @@ this to be a useful approach.
 </p>
 
 
-<h2>libstageplugin</h2>
-<p>Stage is most commonly used a a Player plugin module, providing
-populations of virtual devices for Player. Users write robot
-controllers and sensor algorithms as 'clients' to the Player
-'server'. Typically, clients cannot tell the difference between the
-real robot devices and their simulated Stage equivalents (unless they
-try very hard). We have found that Player clients developed using Stage will
-work with little or no modification with the real robots and vice
-versa. Thus Stage allows rapid prototyping of controllers destined for
-real robots. Stage also allows experiments with realistic robot
-devices you don't happen to have.  Various sensors and actuators are
-provided, including sonar, scanning laser rangefinders, vision (color 
-blob detection), odometry, and a differential steer robot base.
+<h2>Stage sourcecode has a new home</h2>
+
+Stage development moved to <a
+href="https://github.com/rtv/Stage">https://github.com/rtv/Stage</a>
+in 2010. GitHub offers some nice collaboration tools and some other
+advantages over SourceForge.
+
+Important Stage GitHub links:
+
+<ul>
+<li><a href="https://github.com/rtv/Stage">Git repository</a>
+<li><a href="https://github.com/rtv/Stage/downloads">Download tagged or released packages</a>
+<li><a href="https://github.com/rtv/Stage/issues">Issue tracker for submitting bug reports</a>
+</ul>
+
+<h2>Stage</h2> The standalone program <i>stage</i> is a fast and
+scalable robot simulator. Your robot controllers are compiled and
+loaded at run-time, and can be attached to any model. Controllers have
+complete access to the Stage API. 
+
+<h2>Player/Stage (Player with libstageplugin)</h2>
+
+<p> See Jenny Owen's <a href="http://www.jenny-owen.co.uk/player/playerstage-manual.html">Player/Stage tutorial.</a>
+
+<p>Stage is often used a a Player plugin module, providing populations
+of virtual devices for Player. Users write robot controllers and
+sensor algorithms as 'clients' to the Player 'server'. Typically,
+clients cannot tell the difference between the real robot devices and
+their simulated Stage equivalents (unless they try very hard). We have
+found that Player clients developed using Stage will work with little
+or no modification with the real robots and vice versa. Thus Stage
+allows rapid prototyping of controllers destined for real
+robots. Stage also allows experiments with realistic robot devices you
+don't happen to have.  Various sensors and actuator models are
+provided, including range-finders (sonar, SICK and Hokuyo laser
+scanners, IR), vision (color blob detection), 3D depth-map camera,
+odometry (with drift error model), and a differential steer robot base.
 
 <h2>libstage</h2>
-<p>Stage can also be used as a C library to provide a robot simulation
+<p>Stage can also be used as a C++ library to provide a robot simulation
 inside your own programs. This is useful if Player is not suitable for
 your needs, or if you want custom simulation models based on a
 well-known simulation engine.
 
 <p> <a
-href="http://sourceforge.net/project/showfiles.php?group_id=42445">[ Download
-from Sourceforge ]</a>
+href="https://github.com/rtv/Stage/downloads[ Download the latest Stage from GitHub ]</a>
+
+<p> <a
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">[ Download previous versions (3.X and older) from Sourceforge ]</a>
 
 <p>
 <img style="border:1px solid 0x0; padding:0em;" width=100% src="../images/stage-2.0.0a.2.png">

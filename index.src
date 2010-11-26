@@ -13,6 +13,26 @@
 <h2>News</h2>
 
 <ul class="news">
+<li><b>07 August 2010:</b> Player SVN <a href="http://playerstage.sourceforge.net/index.php?src=doc">documentation</a> updated.</li>
+<li><b>28 June 2010:</b> Player 3.0.2 released. Source tarball and Windows installer available <a href="https://sourceforge.net/projects/playerstage/files/">here</a></li>
+<li><b>23 April 2010:</b> Jenny Owen contributed an <a href="http://www.jenny-owen.co.uk/player/playerstage-manual.html">updated Player/Stage tutorial for Stage 3.2.X</a>. Thanks Jenny!</li>
+<li><b>20 October 2009:</b> Stage 3.2.1 released. Manuals page and Stage page refreshed accordingly.</li>
+<li><b>12 July 2009:</b>Added a Player/Stage 2.1 tutorial contributed by Jenny Owen to the <a href=index.php?src=doc>documentation page</a>. Thanks, 
+Jenny.
+<li><b>30 July 2008:</b> Stage 3.0.1 released.  This is a bugfix release, 
+mainly to address issues with the CMake scripts and the Player plugin.  
+Download it <a 
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">here</a>. 
+Release notes are available <a 
+href="http://sourceforge.net/project/shownotes.php?group_id=42445&release_id=616476">
+here</a>.
+
+<li><b>12 July 2008:</b> Stage-3.0.0 released. You can get it from the
+<a 
+href="http://sourceforge.net/project/showfiles.php?group_id=42445">downloads 
+page</a>. It's 3D and fast, but the Player plugin needs work, so check the 
+release notes to see if it's for you.
+
 <li><b>10 Mar 2008:</b> Player source moves from CVS to Subversion (SVN).
 Please <a href="http://sourceforge.net/svn/?group_id=42445">use SVN</a>
 to check out Player from now on.  The CVS Player code is deprecated.
