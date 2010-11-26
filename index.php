@@ -79,7 +79,6 @@ li.menu {
     position:relative;
 }
 
-
 .fragment {
 	width: 85%;
 	border: 1px solid #000000;
@@ -87,8 +86,6 @@ li.menu {
 	padding: 6px;
 	margin: 15px;
 }
-
-
 
 .sidebar {  
  padding:0em; top:0em; 
@@ -153,8 +150,7 @@ urchinTracker();
 <li class=menu><a href="wiki/PlayerUsers">Users</a>
 <li class=menu><a href="index.php?src=funders">Funding</a>
 
-<li  class="menu"><br><a href="http://sourceforge.net"><img  alt="sourceforge"
-src="http://sourceforge.net/sflogo.php?group_id=42445&amp;type=1"></a>
+<li  class="menu"><br><a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=42445&amp;type=11" width="120" height="30" alt="SourceForge.net"></a>
 <li class="menu"><a 
 href="http://sourceforge.net/project/showfiles.php?group_id=42445">Download</a>
 <li  class="menu"><a 
@@ -163,6 +159,16 @@ href="http://sourceforge.net/projects/playerstage">Project</a>
 href="http://sourceforge.net/tracker/?group_id=42445">Bugs</a>
 <li class="menu"><a 
 href="http://sourceforge.net/mail/?group_id=42445">Help</a>
+
+<li  class="menu"><br><a href="http://github.com"><img  alt="github logo"
+src="images/github-logo.png" height=25></a>
+<li class="menu"><a 
+href="http://github.com/rtv/Stage/downloads">Downloads</a>
+<li  class="menu"><a 
+href="http://github.com/rtv/Stage">Project</a>
+<li class="menu"><a 
+href="http://github.com/rtv/Stage/issues">Bugs</a>
+
 </ul>
 </div>
 </td>

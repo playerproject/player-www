@@ -5,7 +5,7 @@
 
 <h3>About Stage</h3>
 <p>
-<img style="border:1px solid 0x0; padding:0em; margin:0em 0em 1em 1em;" align=right width=300 src="../images/stage-2.0.0a.1.png">
+<img style="border:1px solid 0x0; padding:0em; margin:0em 0em 1em 1em;" align=right width=300 src="../images/pioneer.png">
 Stage simulates a population of mobile robots, sensors and objects in
 a two-dimensional bitmapped environment. Stage is designed to support
 research into multi-agent autonomous systems, so it provides fairly
@@ -15,7 +15,8 @@ this to be a useful approach.
 </p>
 
 
-<h2>Stage sourcecode has a new home</h2>
+<h2>Stage sourcecode has a new home at <img height=30 src="images/github-logo.png">
+</h2>
 
 Stage development moved to <a
 href="https://github.com/rtv/Stage">https://github.com/rtv/Stage</a>
@@ -59,13 +60,15 @@ inside your own programs. This is useful if Player is not suitable for
 your needs, or if you want custom simulation models based on a
 well-known simulation engine.
 
-<p> <a
-href="https://github.com/rtv/Stage/downloads[ Download the latest Stage from GitHub ]</a>
+<p> <a href="https://github.com/rtv/Stage/downloads">[ Download the latest Stage from GitHub ]</a>
 
-<p> <a
-href="http://sourceforge.net/project/showfiles.php?group_id=42445">[ Download previous versions (3.X and older) from Sourceforge ]</a>
+<p> <a href="http://sourceforge.net/project/showfiles.php?group_id=42445">[ Download previous versions (3.X and older) from Sourceforge ]</a>
 
 <p>
-<img style="border:1px solid 0x0; padding:0em;" width=100% src="../images/stage-2.0.0a.2.png">
+<img style="border:1px solid 0x0; padding:0em;" width=100% src="../images/hospital.png">
 </p>
+<p>
+<img style="border:1px solid 0x0; padding:0em;" width=100% src="../images/fasr.png">
+</p>
+
 
