@@ -26,9 +26,10 @@ advantages over SourceForge.
 Important Stage GitHub links:
 
 <ul>
-<li><a href="https://github.com/rtv/Stage">Git repository</a>
-<li><a href="https://github.com/rtv/Stage/downloads">Download tagged or released packages</a>
-<li><a href="https://github.com/rtv/Stage/issues">Issue tracker for submitting bug reports</a>
+<li><a href="http://github.com/rtv/Stage">Git repository</a>
+<li><a href="http://github.com/rtv/Stage/downloads">Download tagged or released packages</a>
+<li><a href="http://rtv.github.com/Stage">Documentation</a>
+<li><a href="http://github.com/rtv/Stage/issues">Issue tracker for submitting bug reports</a>
 </ul>
 
 <h2>Stage</h2> The standalone program <i>stage</i> is a fast and

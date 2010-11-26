@@ -4,14 +4,25 @@
 
 <p>These are technical papers from the Player/Stage Project. For manuals, <a href="index.php?src=doc">look here</a>.</p>
 
+<h2>Refereed Journal Papers</h2>
+<ul>
+
+<li>Richard T. Vaughan."Massively multi-robot simulations in Stage."
+  <em>Swarm Intelligence</em>, 2(2-4):189-208, 2008.
+<br> 
+<a href="http://autonomy.cs.sfu.ca/doc/vaughan_si08.pdf">[pdf]</a>
+
+<a href="http://www.springerlink.com/content/n07226r442887871/">[publisher's direct link]</a>
+</ul>
+
 <h2>Refereed Conference Papers</h2>
 <ul>
+
 <li>
 Matthias Kranz, Radu Bogdan Rusu, Alexis Maldonado,
 Michael Beetz, and Albrecht Schmidt,
 "A Player/Stage System for Context-Aware Intelligent 
-Environments".
-To appear in <i>Proceedings of the 
+Environments". <i>Proceedings of the 
 System Support for Ubiquitous Computing Workshop
 (<a href="http://www.magic.ubc.ca/ubisys/">UbiSys 2006</a>)</i>,
 at the 8th Annual Conference on Ubiquitous Computing (<a
